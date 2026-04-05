@@ -20,7 +20,7 @@ function App() {
   return (
     <CartProvider>
       <WishlistProvider>
-        <Router basename="/E-Commerce-Product-Explorer-Cart-Management-App">
+        <Router>
           <div className="app-wrapper" style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
             <Navbar />
             <main className="page-container" style={{ flexGrow: 1 }}>
